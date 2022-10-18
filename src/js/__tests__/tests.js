@@ -52,8 +52,7 @@ test('should create Zombie player', () => {
   expect(new Zombie('Putin', 'Zombie')).toEqual(ZombiePlayer);
 });
 
-
-test('test methods lelveup and damage', () => {
+test('test methods level up and damage', () => {
   const hero = new Bowerman('Putin', 'Bowerman');
   hero.levelup();
   hero.damage(20);
